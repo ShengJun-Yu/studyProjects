@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/demo06Static/StaticField.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/typleOfData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/判断语句.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/判断语句练习.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/判断语句练习01.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/循环控制语句Break和Continue.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/循环语句.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/循环语句嵌套循环.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/循环语句死循环.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/循环语句练习.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/方法初入门.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/选择语句.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/数组/ArrayOne.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/数组/ArraySame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/数组/ArrayTwo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/数组/array.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/数组/arrayLenght.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/数组/arrayPractise.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/数组/arrayUse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/数组/数组越界和空指针.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/方法/Paeam.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/方法/arrayParam.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/方法/deFine.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/方法/overLoad.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/方法/pailei.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/方法/yesOrNoReturn.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/方法/方法练习.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/方法/方法重载练习.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/algorithm/src/Algorithm/Recursive_Apple/回文串.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/homeWork/src/First_Homework.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/homeWork/src/Second_Homework.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/homeWork/src/liwei.java" charset="GBK" />
+  </component>
+</project>
