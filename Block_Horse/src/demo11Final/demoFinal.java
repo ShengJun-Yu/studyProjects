@@ -12,4 +12,7 @@ package demo11Final;
  * 4. 还可以用来修饰一个成员变量
  */
 public class demoFinal {
+    public static void main(String[] args) {
+
+    }
 }
