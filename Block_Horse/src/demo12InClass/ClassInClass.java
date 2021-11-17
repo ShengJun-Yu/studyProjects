@@ -21,10 +21,17 @@ package demo12InClass;
  * 注意：内用外，随意访问；外用内，需要内部类对象。
  */
 public class ClassInClass {//外部类
+    String num="外部类";
     public class clas {//内部类
+        String num="内部类";
         public void methods() {
+            String num="内部类方法变量";
             System.out.println("内部类方法");
             System.out.println(name);
+            // 如果出现了重名现象，那么格式是：外部类名称.this.外部类成员变量名
+            System.out.println(num);
+            System.out.println(this.num);
+            System.out.println(ClassInClass.this.num);
         }
     }
 

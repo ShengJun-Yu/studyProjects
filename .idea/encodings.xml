@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Block_Horse/src/demo06Static/StaticField.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/demo16RedBao/Red/OpenMode.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/demo16RedBao/Red/RedPacketFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Block_Horse/src/demo16RedBao/comeTure/Bootstrap.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/typleOfData.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/判断语句.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Block_Horse/src/基础语法/判断语句练习.java" charset="GBK" />
