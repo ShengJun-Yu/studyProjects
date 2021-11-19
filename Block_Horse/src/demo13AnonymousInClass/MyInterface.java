@@ -6,6 +6,6 @@ package demo13AnonymousInClass;
  */
 public interface MyInterface {
     void method1();
-    void method2();
+    void method2();//匿名内部类
 
 }
