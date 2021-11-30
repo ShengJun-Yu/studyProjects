@@ -15,10 +15,10 @@ package demo23Integer;
  * Integer类: static int parseInt(String s)
  * Double类: static double parseDouble(String s)
  */
-public class IntegerChang {
+public class TypeChang {
     public static void main(String[] args) {
 //        基本类型->字符串(String)
-//        基本类型的值+""
+//        基本类型的值+""  常用
         String str=1+"";
         System.out.println(str+"添加");
 //        装类的静态方法toString(参数)

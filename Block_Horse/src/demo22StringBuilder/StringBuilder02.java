@@ -35,7 +35,7 @@ public class StringBuilder02 {
                  public String toString()：将当前StringBuilder对象转换为String对象。
           */
         String name="jun";
-        StringBuilder str = new StringBuilder("jun");
+        StringBuilder str = new StringBuilder(name);
         System.out.println(str);
         String s = str.toString();
         System.out.println(s);
