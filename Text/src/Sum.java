@@ -3,7 +3,7 @@
  * @date : 2021年9月22日17:27:07
  */
 import java.util.Scanner;
-public class 求和 {
+public class Sum {
     public static void main(String[] args) {
         int sum=0;
         System.out.println("请输入要计算的数字");
