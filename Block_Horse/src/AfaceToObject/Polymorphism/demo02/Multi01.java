@@ -11,8 +11,9 @@ package AfaceToObject.Polymorphism.demo02;
 public class Multi01 {
     public static void main(String[] args) {
         // 对象的向上转型，就是：父类引用指向之类对象。
-        Animal animal = new Dog(); // 本来创建的时候是一只猫
+        Animal animal = new Cat(); // 本来创建的时候是一只猫
         animal.eat();
+
 //        用对象的向下转型【还原】
         Dog dog =(Dog)animal;
         dog.eatShit();

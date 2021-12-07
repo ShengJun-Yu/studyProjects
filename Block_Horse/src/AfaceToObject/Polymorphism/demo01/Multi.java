@@ -12,9 +12,11 @@ package AfaceToObject.Polymorphism.demo01;
  */
 public class Multi {
     public static void main(String[] args) {
-        Father obj = new Son();
-        obj.method();
-        obj.methodFather();
+        Father obj = new Son02();
+//        obj.method();
+//        obj.methodFather();
+        Person p=new Person();
+        p.driver(obj);
 //        obj.methodSon();
 /**
  *  访问成员变量的两种方式：
