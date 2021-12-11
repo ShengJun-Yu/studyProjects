@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AText/AText.iml" filepath="$PROJECT_DIR$/AText/AText.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/algorithm/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Block_Horse/Block_Horse.iml" filepath="$PROJECT_DIR$/Block_Horse/Block_Horse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Text/Text.iml" filepath="$PROJECT_DIR$/Text/Text.iml" />
       <module fileurl="file://$PROJECT_DIR$/homeWork/homeWork.iml" filepath="$PROJECT_DIR$/homeWork/homeWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/studyProjects.iml" filepath="$PROJECT_DIR$/.idea/studyProjects.iml" />
     </modules>
