@@ -17,7 +17,7 @@ public class Main {
                 System.out.println("厨师做饭");
             }
         });
-//        lambda方式
+//        lambda方式编码
         make(()->{
             System.out.println("厨师做饭");
         });
