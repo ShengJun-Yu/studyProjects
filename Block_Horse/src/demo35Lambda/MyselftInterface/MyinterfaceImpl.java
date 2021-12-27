@@ -1,4 +1,4 @@
-package demo35Lambda.MyslftInterface;
+package demo35Lambda.MyselftInterface;
 
 /**
  * @author : Bojack

@@ -45,7 +45,5 @@ public class MapPractise {
         }
 //        5.遍历Map集合,输出结果
         System.out.println(hashmap);
-
-
     }
 }
