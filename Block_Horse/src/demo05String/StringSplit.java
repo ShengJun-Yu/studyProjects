@@ -27,7 +27,7 @@ public class StringSplit {
         }
         System.out.println("=====================");
 
-        String str2 = "adre. wrfe. egt .tg. e.tg. eg. erg ";
+        String str2 = "adre. wrfe. egt .tg. e.tg. eg.erg ";
         String[] s2 = str2.split("\\.");
         for (int i = 0; i < s2.length; i++) {
             System.out.println(s2[i]);

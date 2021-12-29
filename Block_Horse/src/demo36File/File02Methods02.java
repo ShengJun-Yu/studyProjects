@@ -1,4 +1,4 @@
-package demo36File.demo01file;
+package demo36File;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,8 +30,8 @@ public class File02Methods02 {
             delete方法是直接在硬盘删除文件/文件夹,不走回收站,删除要谨慎
      */
     private static void delete() {
-        File f = new File("Block_Horse\\src\\demo36File\\demo01File\\jj\\hh\\gg\\fdd\\sss");
-        File f1 = new File("Block_Horse\\src\\demo36File\\demo01File\\jjj");
+        File f = new File("Block_Horse\\src\\demo36File\\jj\\hh\\gg\\fdd\\sss");
+        File f1 = new File("Block_Horse\\src\\demo36File\\jjj");
         f1.delete();
         f.delete();
     }
@@ -47,10 +47,10 @@ public class File02Methods02 {
             1.此方法只能创建文件夹,不能创建文件
      */
     private static void mkdirs() {
-        File f = new File("Block_Horse\\src\\demo36File\\demo01File\\jj");
+        File f = new File("Block_Horse\\src\\demo36File\\jj");
         boolean mkdir = f.mkdir();
         System.out.println(mkdir);
-        File f1 = new File("Block_Horse\\src\\demo36File\\demo01File\\jj\\hh\\gg\\fdd\\sss");
+        File f1 = new File("Block_Horse\\src\\demo36File\\jj\\hh\\gg\\fdd\\sss");
         f1.mkdirs();
     }
 
@@ -69,7 +69,7 @@ public class File02Methods02 {
      */
     private static void createNewFile() throws IOException {
         File f = new File("D:\\workspace\\studyProjects\\Block_Horse\\pic\\空文件");
-        File f1 = new File("Block_Horse\\src\\demo36File\\demo01File\\jjj");
+        File f1 = new File("Block_Horse\\src\\demo36File\\jjj");
         f1.createNewFile();
         boolean newFile = f.createNewFile();
         System.out.println(newFile);

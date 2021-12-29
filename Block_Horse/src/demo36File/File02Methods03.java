@@ -1,4 +1,4 @@
-package demo36File.demo01file;
+package demo36File;
 
 import java.io.File;
 
@@ -17,7 +17,7 @@ import java.io.File;
 public class File02Methods03 {
     public static void main(String[] args) {
         methodlist();
-        System.out.println("==============");
+        System.out.println("================================================");
         methodlistFiles();
     }
 
@@ -26,7 +26,7 @@ public class File02Methods03 {
         遍历构造方法中给出的目录,会获取目录中所有的文件/文件夹,把文件/文件夹封装为File对象,多个File对象存储到File数组中
      */
     private static void methodlistFiles() {
-        File f1 = new File("Block_Horse\\src\\demo36File\\demo01File");
+        File f1 = new File("Block_Horse\\src\\demo36File");
         File[] files = f1.listFiles();
         for (File f :
                 files) {
@@ -39,7 +39,7 @@ public class File02Methods03 {
         遍历构造方法中给出的目录,会获取目录中所有文件/文件夹的名称,把获取到的多个名称存储到一个String类型的数组中
      */
     private static void methodlist() {
-        File f1 = new File("Block_Horse\\src\\demo36File\\demo01File");
+        File f1 = new File("Block_Horse\\src\\demo36File");
         String[] list = f1.list();
         for (String s :
                 list) {

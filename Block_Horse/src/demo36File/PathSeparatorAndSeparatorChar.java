@@ -1,4 +1,4 @@
-package demo36File.demo01file;
+package demo36File;
 
 import java.io.File;
 

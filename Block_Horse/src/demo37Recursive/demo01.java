@@ -18,17 +18,31 @@ package demo37Recursive;
 public class demo01 {
     public static void main(String[] args) {
 //        a();//StackOverflowError
+        System.out.println("1-max之和；");
         int b = b(5);
         System.out.println(b);
-    }
+        System.out.println("阶乘计算结果：");
+        int jeichen = jeichen(6);
+        System.out.println(jeichen);
+        System.out.println("");
 
+    }
+//    递归写法，计算阶乘
+    private static int jeichen(int n){
+        if (n==1){
+            return 1;
+        }
+        return n*jeichen(n-1);
+
+    }
+//    递归写法，计算1-max之和；不推荐使用递归写法占用资源过高
     private static int b(int max) {
         if (max==1){
             return 1;
         }
         return max + b(max - 1);
     }
-
+    //    使用递归写法，一直调用自己，会导致栈内存溢出StackOverflowError
     private static void a() {
         System.out.println("a方法");//StackOverflowError
         a();
