@@ -1,4 +1,4 @@
-package demo38OutputStream;
+package demo38IOStream;
 
 import java.io.File;
 import java.io.FileOutputStream;
