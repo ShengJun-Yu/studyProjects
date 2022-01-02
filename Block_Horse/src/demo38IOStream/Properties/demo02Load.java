@@ -31,6 +31,5 @@ public class demo02Load {
         for (String key: str) {
             System.out.println(key+"=="+p.getProperty(key));
         }
-
     }
 }
