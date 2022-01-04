@@ -20,13 +20,17 @@ import java.io.IOException;
 public class IOCopy {
     public static void main(String[] args) throws IOException {
         long b = System.currentTimeMillis();
-        FileInputStream fis = new FileInputStream("Block_Horse\\src\\demo38OutputStream\\text02.txt");
-        FileOutputStream fos = new FileOutputStream("Block_Horse\\src\\demo38OutputStream\\text03.txt");
-        byte[] by = new byte[1024];
-        int len = fis.read(by);
-        fis.close();
-        fos.write(by, 0, len);
+        FileInputStream fis = new FileInputStream("D:\\###AAA各种文件233333\\资料\\个人简历.docx");
+        FileOutputStream fos = new FileOutputStream("Block_Horse/src/demo38IOStream/text03.zip");
+        int len = 0;
+        while ((len = fis.read()) != -1) {
+            fos.write(len);
+        }
+//        byte[] by = new byte[1024000000];
+//        int len = fis.read(by);
+//        fos.write(by, 0, len);
         fos.close();
+        fis.close();
         long e = System.currentTimeMillis();
         System.out.println(e - b);
     }

@@ -1,4 +1,4 @@
-package demo38IOStream;
+package demo38IOStream.FileStream;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -21,7 +21,7 @@ import java.io.IOException;
  */
 public class FileInputStream01Add {
     public static void main(String[] args) throws IOException {
-        FileInputStream fis = new FileInputStream("Block_Horse\\src\\demo38OutputStream\\text02.txt");
+        FileInputStream fis = new FileInputStream("Block_Horse/src/demo38IOStream/FileStream/text02.txt");
 //        int read(byte[] b) 从输入流中读取一定数量的字节，并将其存储在缓冲区数组 b 中。
 //        byte[] by=new byte[2];
 //        int len = fis.read(by);

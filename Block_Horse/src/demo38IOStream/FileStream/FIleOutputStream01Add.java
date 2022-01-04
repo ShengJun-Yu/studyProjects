@@ -1,4 +1,4 @@
-package demo38IOStream;
+package demo38IOStream.FileStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -21,7 +21,7 @@ import java.io.IOException;
  */
 public class FIleOutputStream01Add {
     public static void main(String[] args) throws IOException {
-        FileOutputStream fos=new FileOutputStream("Block_Horse\\src\\demo38OutputStream\\text02.txt",true);
+        FileOutputStream fos=new FileOutputStream("Block_Horse/src/demo38IOStream/FileStream/text02.txt",true);
         for (int i = 0; i < 6; i++) {
             fos.write("ÄãºÃ£¡".getBytes());
             fos.write("\r\n".getBytes());

@@ -1,4 +1,4 @@
-package demo38IOStream;
+package demo38IOStream.FileStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -42,9 +42,9 @@ import java.io.IOException;
 public class FileOutputStream01  {
     public static void main(String[] args) throws IOException {
 //        FileOutputStream(String name)创建一个向具有指定名称的文件中写入数据的输出文件流。
-        FileOutputStream fos=new FileOutputStream("Block_Horse\\src\\demo38OutputStream\\text.txt");
+        FileOutputStream fos=new FileOutputStream("Block_Horse/src/demo38IOStream/FileStream/text.txt");
 //        public abstract void write(int b) ：将指定的字节输出流。
-        fos.write(2021);
+        fos.write(99);
 //        public void close() ：关闭此输出流并释放与此流相关联的任何系统资源。
         fos.close();
     }

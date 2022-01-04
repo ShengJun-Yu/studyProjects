@@ -1,4 +1,4 @@
-package demo38IOStream;
+package demo38IOStream.FileStream;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -39,7 +39,7 @@ import java.io.IOException;
 public class FileInputStream01 {
     public static void main(String[] args) throws IOException {
 //        int read()读取文件中的一个字节并返回,读取到文件的末尾返回-1
-        FileInputStream fis=new FileInputStream("Block_Horse\\src\\demo38OutputStream\\text02.txt");
+        FileInputStream fis=new FileInputStream("Block_Horse/src/demo38IOStream/FileStream/text.txt");
 
 //        System.out.println(fis.read());
          /*

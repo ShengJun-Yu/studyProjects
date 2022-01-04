@@ -1,4 +1,4 @@
-package demo38IOStream;
+package demo38IOStream.FileStream;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -14,7 +14,7 @@ import java.io.IOException;
  */
 public class FileOutputStream01more {
     public static void main(String[] args) throws IOException {
-        FileOutputStream fos = new FileOutputStream(new File("Block_Horse\\src\\demo38OutputStream\\text02.txt"));
+        FileOutputStream fos = new FileOutputStream(new File("Block_Horse/src/demo38IOStream/FileStream/text02.txt"));
 //        public void write(byte[] b)：将 b.length字节从指定的字节数组写入此输出流。
         byte[] by = {68, 69, 80, 65};
         fos.write(by);
