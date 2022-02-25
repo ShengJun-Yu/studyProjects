@@ -42,6 +42,8 @@ public class FileInputStream01 {
         FileInputStream fis=new FileInputStream("Block_Horse/src/demo38IOStream/FileStream/text.txt");
 
 //        System.out.println(fis.read());
+//        System.out.println(fis.read());
+
          /*
             发现以上读取文件是一个重复的过程,所以可以使用循环优化
             不知道文件中有多少字节,使用while循环
