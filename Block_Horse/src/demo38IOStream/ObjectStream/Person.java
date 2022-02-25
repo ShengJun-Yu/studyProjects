@@ -18,21 +18,15 @@ import java.io.Serializable;
  *     static关键字:静态关键字
  *         静态优先于非静态加载到内存中(静态优先于对象进入到内存中)
  *         被static修饰的成员变量不能被序列化的,序列化的都是对象
- *         private static int age;
- *         oos.writeObject(new Person("小美女",18));
- *         Object o = ois.readObject();
- *         Person{name='小美女', age=0}
  *
  *     transient关键字:瞬态关键字
  *         被transient修饰成员变量,不能被序列化
- *         private transient int age;
- *         oos.writeObject(new Person("小美女",18));
- *         Object o = ois.readObject();
- *         Person{name='小美女', age=0}
  */
 public class Person implements Serializable {
-    private String name;
-    private int age;
+    //锁定该person类的UID，使得改变变量类型时不会报错。
+    private static final long serialVersionUID=12;
+    private transient String name;
+    private   static int age;
 
     @Override
     public String toString() {

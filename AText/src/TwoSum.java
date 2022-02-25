@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * @author : Bojack
@@ -8,41 +8,46 @@ import java.util.ArrayList;
  */
 public class TwoSum {
     public static void main(String[] args) {
-        int[] a = {1, 2,3,4,5};
-        int[] b = {8, 5, 9, 10};
-        demo(a,b);
+        int[] a = {1, 2,3,4,5,6};
+        int b = 6;
+        int[] demo = twoSum(a, b);
+        System.out.println(demo[0]);
+        System.out.println("======================");
+        System.out.println(demo[1]);
+
+    }
+    public static int[] twoSum(int[] nums, int target) {
+        int[] indexs = new int[2];
+        // 建立k-v ，一一对应的哈希表
+        HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
+        for(int i = 0; i < nums.length; i++){
+            if(hash.containsKey(nums[i])){
+                indexs[0] = i;
+                indexs[1] = hash.get(nums[i]);
+                return indexs;
+            }
+            // 将数据存入 key为补数 ，value为下标
+            hash.put(target-nums[i],i);
+        }
+        return indexs;
     }
 
-    public static void demo(int[] nums, int[] target) {
-        ArrayList<Integer> list = new ArrayList<>();
-//        ArrayList<Integer>  copysum= new ArrayList<>();
-//        ArrayList<Integer>  sum= new ArrayList<>();
-        ArrayList<Integer> copytarget = new ArrayList<>();
-        for (int i : target) {
-            copytarget.add(i);
-        }
+    public static int[] demo(int[] nums, int target) {
+        int [] index=new int [2];
         int[] copynums = nums;
         int c=0;
         int sum1;
         do {
             for (int i = c+1; i < nums.length; i++) {
                 sum1=copynums[c] + nums[i];
-                if(copytarget.contains(sum1)){
-                    System.out.println("两整数为："+copynums[c]+"和"+nums[i]+","+"下标为："+c+"和"+(i));
-                    System.out.println();
+                if(target==sum1){
+                    index[0]=c;
+                    index[1]=i;
+                 return index;
                 }
-//                copysum.add(sum1);
-//                public boolean contains(E e)
             }
             c++;
         }while (c<copynums.length);
-//        System.out.println(copysum);
-//        for (int i1 = 0; i1 < copysum.size(); i1++) {
-//            if(copytarget.contains(copysum.get(i1))){
-//               sum.add(copysum.get(i1));
-//            }
-//        }
-//        System.out.println(sum);
-
+        return index;
     }
 }
