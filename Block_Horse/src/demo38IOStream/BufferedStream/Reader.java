@@ -35,6 +35,9 @@ import java.io.IOException;
 public class Reader {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("Block_Horse/src/demo38IOStream/BufferedStream/write.txt"));
+        int read = br.read();
+
+        System.out.println((char)read);
         String len = null;
         while ((len = br.readLine()) != null) {
             System.out.println(len);

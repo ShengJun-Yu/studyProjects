@@ -1,4 +1,4 @@
-package demo39ComputerNetwork.TcpActualzation.Text;
+package demo39ComputerNetwork.TcpActualzation.Text.betterText;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -16,7 +16,7 @@ import java.net.Socket;
  * 数据源:c:\\1.jpg
  * 目的地:服务器
  */
-public class TcpClient {
+public class betterTcpClient {
     public static void main(String[] args) throws IOException {
 //        记录上传所用时间
         long l = System.currentTimeMillis();
