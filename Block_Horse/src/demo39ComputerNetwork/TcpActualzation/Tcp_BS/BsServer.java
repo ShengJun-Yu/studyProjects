@@ -39,12 +39,12 @@ public class BsServer {
                         os.write("\r\n".getBytes());
 
                         int len = 0;
-                        byte[] bytes = new byte[1024];
+                        byte[] bytes = new byte[10024];
                         while ((len = fs.read(bytes)) != -1) {
                             os.write(bytes, 0, len);
                         }
                         //添加结束标记
-                        socket.shutdownOutput();
+//                        socket.shutdownOutput();
                         //关闭资源
                         fs.close();
                         socket.close();
