@@ -10,7 +10,7 @@ import java.util.function.Supplier;
  * <p>
  * Supplier<T>接口被称之为生产型接口,指定接口的泛型是什么类型,那么接口中的get方法就会生产什么类型的数据
  */
-public class Supplier01 {
+public class demo01Supplier {
     public static int showMax(Supplier<Integer> sup) {
         return sup.get();
     }
@@ -26,11 +26,12 @@ public class Supplier01 {
         System.out.println(show);
 
         int showMax=showMax(()->{
-           int[] arr={213,210,121,123,1};
+           int[] arr={213,210,121,123,1,423,234};
            int max=arr[0];
+//            for (int i=0;i<arr.length;i++) {
             for (int i:arr) {
                 if(i>max){
-                    max=arr[i];
+                    max=i;
                 }
             }
            return max;

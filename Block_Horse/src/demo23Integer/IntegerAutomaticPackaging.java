@@ -30,6 +30,7 @@ public class IntegerAutomaticPackaging {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(1); //-->自动装箱 list.add(new Integer(1));
         int a = list.get(0); //-->自动拆箱  list.get(0).intValue();
+        System.out.println(a);
     }
 
 }

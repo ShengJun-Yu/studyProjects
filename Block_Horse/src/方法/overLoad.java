@@ -36,7 +36,7 @@ public class overLoad {
         return a + b + c;
     }
 
-    public static int sum(int a, int b, int c, int d) {
+    public static long sum(int a, int b, int c, long d) {
         return a + b + c + d;
     }
 
