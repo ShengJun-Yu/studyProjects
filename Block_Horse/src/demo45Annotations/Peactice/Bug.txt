@@ -1,0 +1,7 @@
+add方法出现异常
+异常的名称为：java.lang.NullPointerException
+异常的原因为：null
+div方法出现异常
+异常的名称为：java.lang.ArithmeticException: / by zero
+异常的原因为：/ by zero
+本次运行出现2次异常
